@@ -26,7 +26,10 @@ const Landing = () => {
           <a href="" className="text-green-100/50 hover:text-green-600 font-semibold public">Lake Restoration</a>
           <a href="" className="text-green-100/50 hover:text-green-600 font-semibold public">Events</a>
         </nav>
-        <CTAYellowBtn>Join the Movement</CTAYellowBtn>
+        <button onClick={() => setShowDialog(true)}>
+        <CTAYellowBtn className="h-fit w-fit text-green-50">
+        Join the Movement <ArrowRight/></CTAYellowBtn>
+      </button>
       </div>
 
       <section className="flex gap-10 pt-40 p-20"> 
