@@ -1,3 +1,14 @@
+# This the submission for India Skills 2026 Web Technologies
+
+By Sparsh Singh
+Workspace 11
+Module C
+
+## Live Link
+- *Github:* [https://github.com/bigsparsh/11_module_C](https://github.com/bigsparsh/11_module_C)
+- *Live on vercel:* [11-module-c.vercel.app](11-module-c.vercel.app)
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
