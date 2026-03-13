@@ -84,21 +84,21 @@ const Landing = () => {
       <p className="text-green-950/65 public">From reviving the Yamuna's banks to planting a million trees, Agra's transformation is driven by science, community, and an unstoppable commitment to a sustainable future.</p>
     </div>
     <div className="grid grid-cols-3 gap-3">
-      <DescCard image="https://picsum.photos/1920/1080" title="Lake Restoration" titleicon={<Droplet className="text-green-950/50" width={20} height={20} />} desc="Reviving Agra's iconic water bodies through desilting, ghats restoration and wetland regeneration — restoring ecological balance and beloved public spaces along the Yamuna." points={[
+      <DescCard image="/Lake-Restoration.jpeg" title="Lake Restoration" titleicon={<Droplet className="text-green-950/50" width={20} height={20} />} desc="Reviving Agra's iconic water bodies through desilting, ghats restoration and wetland regeneration — restoring ecological balance and beloved public spaces along the Yamuna." points={[
         "8 water bodies fully desilted & restored",
         "Keetham Lake water quality up 35%",
         "Yamuna ghat beautification underway",
         "Bird sanctuary at Sur Sarovar expanded",
       ]} active ={true} titlesmall="Water Bodies"  />
 
-      <DescCard image="https://picsum.photos/1920/1080" title="Urban Forestry" titleicon={<Trees className="text-green-950/50" width={20} height={20} />} desc="Building a city-wide green canopy through strategic tree planting, avenue greening and Miyawaki forests to fight the urban heat island effect across Agra's heritage zones." points={[
+      <DescCard image="/Urban-Forestry.jpeg" title="Urban Forestry" titleicon={<Trees className="text-green-950/50" width={20} height={20} />} desc="Building a city-wide green canopy through strategic tree planting, avenue greening and Miyawaki forests to fight the urban heat island effect across Agra's heritage zones." points={[
         "50,000+ trees planted city-wide",
         "Taj Mahal buffer zone fully greened",
         "Miyawaki forests at 10 locations",
         "Native species priority policy",
       ]} active ={false} titlesmall="Forestry"  />
 
-      <DescCard image="https://picsum.photos/1920/1080" title="Waste Management" titleicon={<Recycle className="text-green-950/50" width={20} height={20} />} desc="Transforming Agra's waste into a resource through source segregation, composting and cutting-edge processing across all AMC wards — keeping heritage sites spotless." points={[
+      <DescCard image="/Waste-Management.jpeg" title="Waste Management" titleicon={<Recycle className="text-green-950/50" width={20} height={20} />} desc="Transforming Agra's waste into a resource through source segregation, composting and cutting-edge processing across all AMC wards — keeping heritage sites spotless." points={[
         "30% waste now composted / recycled",
         "Dry waste centres in every ward",
         "Bio-methanation at 4 major markets",
