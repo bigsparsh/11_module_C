@@ -9,7 +9,7 @@ const NumberCards = ({icon, number, ops, title, desc}: {
         {icon}
         <h1 className="text-5xl text-green-50 outfit font-black">{number}</h1>
         <div className="flex flex-col justify-center items-center">
-            <h3 className="text-green-50 font-bold outfit">{title}</h3>
+        <h3 className="text-green-50 font-bold outfit">{title}</h3>
         <p className="text-xs text-green-50/50 public text-center">{desc}</p>
         </div>
     </div>
