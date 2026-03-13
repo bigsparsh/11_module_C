@@ -1,13 +1,20 @@
+"use client"
 import CTAYellowBtn from "@/components/cta-yellow-btn";
 import DescCard from "@/components/desc-card";
+import DialogForm from "@/components/dialog-form";
 import GhostBtn from "@/components/ghost-btn";
 import MainHeader from "@/components/main-header";
 import NumberCards from "@/components/number-cards";
 import SmallText from "@/components/small-txt";
 import { ArrowRight, Crop, Droplet, Percent, Plus, Recycle, Trees, Dot } from "lucide-react";
+import { useState } from "react";
 
 const Landing = () => {
+  const [showDialog, setShowDialog] = useState<boolean>(false);
+
+  
   return <>
+  {showDialog? <DialogForm close={setShowDialog}/>: null}
   <main className="h-screen *:text-green-100" style={{
     background: " linear-gradient(110deg, rgba(10, 28, 18, 0.88) 40%, rgba(10, 28, 18, 0.45) 100% 100%), url('/hero-bg.jpg') "
   }}>
@@ -106,8 +113,10 @@ const Landing = () => {
       Volunteer for lake clean-ups, tree planting drives and waste awareness campaigns. Every action plants the seed of a greener future.
     </p>
       </div>
-      <CTAYellowBtn className="h-fit w-fit text-green-50">
+      <button onClick={() => setShowDialog(true)}>
+        <CTAYellowBtn className="h-fit w-fit text-green-50">
         Join the Movement <ArrowRight/></CTAYellowBtn>
+      </button>
       
     </div>
   </section>
